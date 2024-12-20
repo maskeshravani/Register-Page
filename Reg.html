@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Register Form</title>
+
+<body bgcolor = " pink">
+
+<style>
+    body {
+      background-color: pink;
+      font-family: Arial, sans-serif;
+    }
+    form {
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin: 5px 0 2px;
+      font-weight: bold;
+      color: #333;
+    }
+   select{
+    width: calc(60% - 20px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+   }
+    input {
+      width: calc(60% - 20px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #929FCC;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #7b89bf;
+    }
+  </style>
+</head>
+<a align = "center" >
+	<form action = "regform" method = "post">
+	
+	<h1>Registration Form</h1>
+	
+	<label>First Name: </lable>
+	<input type = "text" placeholder = "Enter the first name" name = "name1" required>
+	
+	<label>Last Name: </lable>
+	<input type = "text" placeholder = "Enter the last name" name = "name2" ><br><br>
+	
+	<label>Email: </lable>
+	<input type = "email" placeholder = "email12@xyz.com" name = "email1" ><br><br>
+	
+	<label>Password: </lable>
+	<input type = "password" placeholder = "Enter the password" name = "pass1" ><br><br>
+
+	
+	<button >register </button>
+	
+</form>
+</body>
+</html>
