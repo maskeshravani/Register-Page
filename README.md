@@ -1,8 +1,12 @@
 # Register-Page
 
-Frontend: An HTML form with CSS for user-friendly input collection.
+Frontend:
 
-Fields: First Name, Last Name, Email, Password.
+  An HTML form with CSS for user-friendly input collection.
+
+Fields:
+
+  First Name, Last Name, Email, Password.
 
 Form submits data via POST to the regForm servlet.
 
